@@ -393,7 +393,52 @@
 #product .retail{
 	
 }
-
+/*区块链*/
+.block-container {
+	text-align: center;
+}
+.block-container h3 {
+	margin: .7rem 0 .4rem 0;
+	font-size: .4rem;
+}
+.block-container p {
+	font-size: .32rem;
+	line-height: 1.5;
+	width:88%;
+	margin: 0 auto;
+	color: #333333;
+}
+.block-container .bock-type {
+	width: 8rem;
+	margin: 0.25rem auto;
+}
+.block-container .bock-type .fl, .block-container .bock-type .fr{
+	width: 3.75rem;
+	height: 4.5rem;
+	box-sizing: border-box;
+	text-align: center;
+	padding: .45rem 0 .40rem 0;
+	margin: .25rem 0;
+	border: 1px solid #f9f9f9;
+	box-shadow: .06rem .06rem 0.8rem rgba(0,0,0,.1);
+}
+.block-container .bock-type h3{
+	font-size: .3rem;
+	margin-bottom: .25rem;
+	margin-top: .45rem;
+	font-weight: normal;
+}
+.block-container .bock-type p{
+	font-size: .25rem;
+	margin-bottom: 0rem;
+}
+.block-container .bock-type .fl {
+	margin-right: .3rem;
+}
+.block-container .bock-type .bock-img {
+	width: 1.2rem;
+	margin: 0 auto;
+}
 /*新闻详情*/
 #detail{
 	
