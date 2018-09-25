@@ -69,7 +69,7 @@
 			        </div>
 			    </div>
 				<div class="swiper-pagination"></div>
-			</div>	
+			</div>		        
 		</section>
 		
 		<!--微商城-->
@@ -77,6 +77,13 @@
 			<img src="static/images/product01.png" alt="">
 			<img src="static/images/product02.png" alt="">
 			<img src="static/images/product03.png" alt="">
+			
+			<!--申请试用-->
+	        <div class="test">
+	        	<input type="text" placeholder="请输入您的姓名" />
+	        	<input type="text" placeholder="请输入您的联系电话" class="phone" />
+	        	<a href="javascript:;" class="submit">申请试用</a>
+	        </div>
 		</div>
 
 		<style>
@@ -98,6 +105,21 @@
 	
 <script src="static/js/swiper.min.js"></script>
 <script src="static/js/wedotop_m.js"></script>	
+<script type="text/javascript">
+	$(function(){
+	  	//申请试用
+	  	$("body").on("click",".test a.submit",function(){
+	  		var isPhone = /^1[34578]\d{9}$/;//手机号码
+	  		if(!isPhone.test($(".test .phone").val())){
+	  			alert("请输入正确的手机号码");
+		        return false;
+		   	}
+	  		
+	  		alert("提交成功");
+
+		});	
+	})
+</script> 
 </body>
 
 </html>
