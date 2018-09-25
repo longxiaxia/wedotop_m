@@ -33,12 +33,15 @@ nav .submenu{
 	z-index:2;
 }
 nav a.sLevel{
-	width:16.66%;
+	width:13.5%;
 	color:#707070;
 	font-size:0.36rem;
 	line-height:0.92rem;
 	border-top:0.04rem solid #f6f6f6;
 	border-bottom:0.04rem solid #f6f6f6;
+}
+nav a.sLevel:nth-child(6){
+	width:18%;
 }
 nav a.sLevel.active{
 	color:#109ACF;
