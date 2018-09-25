@@ -272,6 +272,107 @@
 #product .content ul li:nth-child(2n){
 	padding:0 0 0.4rem 0.3rem;
 }
+#product .content ul li p{
+	font-size:0.3rem;
+    line-height:0.4rem;
+    height:0.4rem;
+    margin-bottom:0.02rem;
+    overflow:hidden;
+}
+#product .content ul li p:last-child{
+	font-size:0.22rem;
+    line-height:0.32rem;
+    height:0.64rem;
+}
+
+#product .content ul.list{
+	padding:0.3rem 0 0 0;
+}
+#product .content ul.list li{
+	width:3.3rem;
+	padding:0;
+	margin-right:0.45rem;
+	margin-bottom:0.4rem;
+}
+#product .content ul.list li:nth-child(3n){
+	margin-right:0;
+}
+#product .content ul.list li img{
+	width:1.3rem;
+	height:1.3rem;
+}
+
+#product .content ul.value{
+	padding:0.3rem 0.5rem;
+}
+#product .content ul.value li{
+	width:100%;
+	padding:0.45rem 0 0.25rem 0;
+	margin-bottom:0.2rem;
+	border:1px solid #ccc;
+}
+#product .content ul.value li:nth-child(3n){
+	
+}
+#product .content ul.value .fl{
+	width:1.5rem;
+	height:1.5rem;
+	overflow:hidden;
+	margin:0 0.5rem;
+
+}
+#product .content ul.value .fr{
+	width:7.2rem;
+	padding-right:0.5rem;
+}
+#product .content ul.value li img{
+	width:100%;
+	height:100%;
+}
+#product .content ul.value li p{
+	font-size:0.3rem;
+	line-height:0.44rem;
+	text-align:left;
+}
+#product .content ul.value li p:last-child{
+	font-size:0.22rem;
+	line-height:0.34rem;
+	margin-top:0.05rem;
+}
+
+#product .content .test{
+	padding:0.4rem 0.5rem 0.7rem 0.5rem;
+}
+#product .content .test input{
+	width:100%;
+	font-size:0.38rem;
+	line-height:0.38rem;
+	border:1px solid #d2d2d2;
+	padding:0.3rem 0.4rem;
+	color:#181818;
+	background:#fff;
+	margin-bottom:0.3rem;
+}
+#product .content ::-webkit-input-placeholder { /* WebKit browsers */  
+    color:#848282;  
+}  
+#product .content :-moz-placeholder { /* Mozilla Firefox 4 to 18 */  
+   color:#848282;  
+}  
+#product .content ::-moz-placeholder { /* Mozilla Firefox 19+ */  
+   color:#848282;   
+}  
+#product .content :-ms-input-placeholder { /* Internet Explorer 10+ */  
+   color:#848282;  
+} 
+#product .content .test a{
+	width:100%;
+	font-size:0.42rem;
+	line-height:1.1rem;
+	color:#fff;
+	background:#2ca3ff;
+}
+
 /*微官网*/
 #product .web{
 	
