@@ -1,0 +1,46 @@
+/*头部菜单*/
+nav{
+	position:relative;
+}
+nav ul{
+	padding:0 0 0 0.2rem;
+	/*padding:0.4rem 0 0.36rem 0.2rem;*/
+}
+nav ul li{
+	line-height:1.2rem;
+}
+nav a.fLevel{
+	color:#707070;
+	font-size:0.4rem;
+	line-height:0.4rem;
+	padding:0 0.25rem;
+	padding:0 0.35rem;
+	border-right:2px solid #C7C5C5;
+}
+nav a.fLevel.active{
+	color:#109ACF;
+}
+nav ul li:last-child>a{
+	border-right:0;
+}
+nav .submenu{
+	display:none;
+	width:100%;
+	background:#f6f6f6;
+	position:absolute;
+	left:0;
+	top:1.15rem;
+	z-index:2;
+}
+nav a.sLevel{
+	width:16.66%;
+	color:#707070;
+	font-size:0.36rem;
+	line-height:0.92rem;
+	border-top:0.04rem solid #f6f6f6;
+	border-bottom:0.04rem solid #f6f6f6;
+}
+nav a.sLevel.active{
+	color:#109ACF;
+	border-bottom:0.04rem solid #109ACF;
+}

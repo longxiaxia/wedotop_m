@@ -1,0 +1,308 @@
+/*首页*/
+#index{
+	text-align:center;
+}
+#index section .title{
+	/*font-size:0.36rem;
+	line-height:0.46rem;*/
+	font-size:0.4rem;
+	line-height:0.5rem;
+	font-weight:bold;
+}
+#index section .subTitle{
+	font-size:0.18rem;
+	line-height:0.28rem;
+}
+#index section.value{
+	padding-bottom:0.95rem;
+}
+#index section.value .title{
+	margin:0.72rem 0 0.02rem 0;
+	/*margin:0.52rem 0 0.02rem 0;*/
+}
+#index section.value .subTitle{
+	margin-bottom:0.42rem;
+}
+#index section.value .list{
+	height:5rem;
+	position:relative;
+}
+#index section.value a{
+	width:3.52rem;
+	box-shadow:0 0 5px #666;
+	-webkit-box-shadow:0 0 5px #666;
+	background:#fff;
+    position:absolute;
+    left:0.58rem;
+    top:0.4rem;
+}
+#index section.value a:nth-child(2){
+	left:3.35rem;
+}
+#index section.value a.te:nth-child(2){
+	left:4.1rem;
+	z-index:2;
+}
+#index section.value a:nth-child(3){
+    left:6.7rem;
+}
+#index section.value a .img{
+	height:2.6rem;
+	overflow:hidden;
+}
+#index section.value a p{ 
+	color:#232323;
+	padding:0 0.4rem;
+	font-size:0.27rem;
+	line-height:0.36rem;
+	margin-top:0.35rem;
+}
+#index section.value a p.info{
+	overflow:hidden;
+	color:#696969;
+	font-size:0.15rem;
+	line-height:0.55rem;
+	height:0.5rem;
+	margin:0.15rem 0 0.3rem 0;
+}
+#index section.value a.active{
+	width:4.1rem;
+	z-index:3;
+	left:0.27rem;
+	top:0;
+}
+#index section.value a.active:nth-child(2){
+    left:3.35rem;
+}
+#index section.value a.active:nth-child(3){
+    left:5.95rem;
+}
+#index section.value a.active .img{
+	height:3.05rem;
+}
+#index section.value a.active p{ 
+	font-size:0.31rem;
+	line-height:0.41rem;
+	margin-top:0.4rem;
+}
+#index section.value a.active p.info{
+	font-size:0.18rem;
+	line-height:0.28rem;
+	height:0.86rem;
+	margin:0.2rem 0 0.4rem 0;
+}
+#index section.mobile{
+	padding:0.45rem 0 0.3rem 0;
+	background:url(../images/mobileBg.png) no-repeat;
+	background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+}
+#index section.mobile .subTitle{
+	margin-bottom:0.33rem;
+}
+#index section.mobile .list{
+	display:inline-block;
+}
+#index section.mobile .box{
+	width:3.12rem;
+	height:5.95rem;
+	border:1px solid #57D3DB;
+	background:#fff;
+	margin-left:-1px;
+}
+#index section.mobile .boxT{
+	color:#fff;
+	background:#57D3DB;
+	padding:0.35rem 0 0.45rem 0;
+	position:relative;
+}
+#index section.mobile .boxT:before{
+	display:block;
+	content:"";
+	width:1rem;
+	height:1rem;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	background:#57D3DB url(../images/wedotop_m.png) left 0 top 0 no-repeat;
+	background-size:10.8rem auto;
+	-webkit-background-size:10.8rem auto;
+	position:absolute;
+	left:50%;
+	bottom:-0.55rem;
+	margin-left:-0.5rem;
+}
+#index section.mobile a:nth-child(2) .boxT:before{
+	background-position:-1rem 0;
+}
+#index section.mobile a:nth-child(3) .boxT:before{
+	background-position:-2rem 0;
+}
+#index section.mobile .boxT p{
+	font-size:0.3rem;
+	line-height:0.4rem;
+	overflow:hidden;
+}
+#index section.mobile .boxT p.info{
+	font-size:0.22rem;
+	line-height:0.32rem;
+	height:0.32rem;
+	margin-top:0.08rem;
+}
+#index section.mobile .boxB{
+	padding:0.9rem 0.1rem 0.2rem 0.65rem;
+}
+#index section.mobile .boxB li{
+	color:#323131;
+	height:0.36rem;
+	overflow:hidden;
+	padding-left:0.3rem;
+	margin-bottom:0.28rem;
+	position:relative;
+}
+#index section.mobile .boxB li:before{
+	display:block;
+	content:"";
+	width:0.1rem;
+	height:0.1rem;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	background:#57D3DB;
+	position:absolute;
+	left:0.08rem;
+	bottom:0.13rem;
+}
+#index section.lead{
+	
+}
+#index section.lead .title{
+	margin:0.72rem 0 0.02rem 0;
+}
+#index section.lead .subTitle{
+	margin-bottom:0.42rem;
+}
+#index section.lead .list{
+	/*padding:0 0.1rem;*/
+	display:inline-block;
+}	
+#index section.lead .list a{
+	width:3.4rem;
+	padding-top:1.24rem;
+	margin:0.15rem 0.2rem 0.8rem 0;
+	position:relative;
+}
+#index section.lead .list a:nth-child(3n){
+	margin-right:0;
+}
+#index section.lead .list a:before{
+	display:block;
+	content:"";
+	width:1rem;
+	height:1rem;
+	background:url(../images/wedotop_m.png) left 0 top -1rem no-repeat;
+	background-size:10.8rem auto;
+	-webkit-background-size:10.8rem auto;
+	position:absolute;
+	left:50%;
+	top:0;
+	margin-left:-0.5rem;
+}
+#index section.lead .list a:nth-child(2):before{
+	background-position:-1rem -1rem;
+}
+#index section.lead .list a:nth-child(3):before{
+	background-position:-2rem -1rem;
+}
+#index section.lead .list a:nth-child(4):before{
+	background-position:-3rem -1rem;
+}
+#index section.lead .list a:nth-child(5):before{
+	background-position:-4rem -1rem;
+}
+#index section.lead .list a:nth-child(6):before{
+	background-position:-5rem -1rem;
+}
+#index section.lead a p{
+	font-size:0.3rem;
+	line-height:0.4rem;
+	height:0.4rem;
+	margin-bottom:0.02rem;
+	overflow:hidden;
+}
+#index section.lead a p.info{
+	font-size:0.22rem;
+	line-height:0.32rem;
+	height:0.32rem;
+}
+
+
+/*产品中心*/
+#product{
+	
+}
+#product .content{
+	color:#585858;
+	text-align:center;
+}
+#product .content .whiteBg{
+	background:#fff;
+}
+#product .content .grayBg{
+	background:#f6f6f6;
+}
+#product .content .title{
+	font-weight:bold;
+	font-size:0.48rem;
+	line-height:0.68rem;
+	padding:0.6rem 0 0.15rem 0;
+	/*padding:0.4rem 0 0.15rem 0;*/
+}
+#product .content .subTitle{
+	font-size:0.36rem;
+	line-height:0.56rem;
+	
+}
+
+#product .content ul{
+	padding:0.35rem 0.5rem 0.3rem 0.5rem;
+}
+#product .content ul li{
+	width:50%;
+	padding:0 0.3rem 0.4rem 0;
+}
+#product .content ul li:nth-child(2n){
+	padding:0 0 0.4rem 0.3rem;
+}
+/*微官网*/
+#product .web{
+	
+}
+/*微商城*/
+#product .store{
+	
+}
+/*微直播*/
+#product .live{
+	
+}
+
+/*新闻详情*/
+#detail{
+	
+}
+#detail .main{
+	padding:0 0.5rem;
+}
+#detail .main .title{
+	font-weight:bold;
+	text-align:center;
+	font-size:0.4rem;
+	line-height:0.6rem;
+	padding-top:0.5rem;
+}
+#detail .main p{
+	color:#707070;
+	font-size:0.34rem;
+	line-height:0.54rem;
+	text-indent:2em;
+	margin:0.2rem 0;
+}

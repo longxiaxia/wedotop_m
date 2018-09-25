@@ -1,0 +1,42 @@
+*html, _html{background-image:url(about:blank); background-attachment:fixed;min-height:100%;}
+* {border:none; padding:0; margin:0;-webkit-tap-highlight-color:rgba(255,0,0,0);cursor:pointer;}
+body, button, input, select, textarea, h2{font:12px/100% 'Helvetica Neue',Helvetica, sans-serif, 'Microsoft Yahei', '\5B8B\4F53', Tahoma, sans-serif; outline:none; font-size:0.26rem;}
+html{min-height:100%;}
+body {min-height:100%;color:#181818;background:#fff;font-size:0.26rem;line-height:0.36rem;}
+*, *:before, *:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+html.scroll,body.scroll{position:fixed;left:0;top:0;width:100%;}
+
+*{}
+
+
+
+
+a{text-decoration:none;color:#181818;outline:none;display:inline-block;text-align:center;}
+a:hover{text-decoration:none;}
+button{cursor:pointer;}
+input{outline:none;color:#181818;border:0;border-radius:0;-webkit-border-radius:0;cursor:pointer;appearance:none;-webkit-appearance:none;}
+input[type='number']{-moz-appearance:textfield;}
+input[type=number]::inner-spin-button,
+input[type=number]::outer-spin-button{appearance:none;margin:0;}
+img{border:0;-ms-interpolation-mode:bicubic;vertical-align:middle; display:inline-block;width:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+ul, ul li, p, dl, dl dd{list-style:none;} 
+em, i{font-style:normal;}
+.clearfix:after, .clear:before{display:block;clear:both;content:"";visibility:hidden;height:0} 
+.clearfix:after{zoom:1}
+
+.center{margin:0 auto;}
+.fl{float:left;}
+.fr{float:right;}
+.tar{text-align:right;}
+.tal{text-align:left;}
+.tac{text-align:center;}
+.clr{clear:both; height:0px; display:block;}
+.radius{border-radius:50%;-webkit-border-radius:50%;}
+.radius10{border-radius:0.1rem;-webkit-border-radius:0.1rem;}
+.radius20{border-radius:0.2rem;-webkit-border-radius:0.2rem;}
+.radius45{border-radius:0.45rem;-webkit-border-radius:0.45rem;}
+.radius50{border-radius:0.5rem;-webkit-border-radius:0.5rem;}
+em{display:inline-block;}
+
+/*p{display: -webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;height:30px;overflow:hidden;}*/

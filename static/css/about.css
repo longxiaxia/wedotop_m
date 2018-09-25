@@ -1,0 +1,35 @@
+.article {
+    margin: .35rem 0 .3rem 0;
+}
+.article-content {
+    text-align: left;
+    margin-top: .35rem;
+}
+.article-content h3 {
+    color: #6e6e6e;
+    font-size: .42rem;
+    height: .36rem;
+    line-height: .36rem;
+    text-align: left;
+    margin-bottom: .57rem;
+}
+.article-content h3 span {
+    display: inline-block;
+    width:.10rem;
+    height:.50rem;
+    background:#2f90e0;
+    margin-right: .2rem;
+    position: relative;
+    top: .07rem;
+}
+.article-content p {
+    color: #7b7b7b;
+    line-height: 1.7;
+    text-indent: .55rem;
+    padding: 0 .45rem;
+    text-align: justify;
+    font-size: .36rem;
+}
+.article-content img{
+    padding: 0 .45rem;
+}
