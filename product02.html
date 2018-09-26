@@ -109,7 +109,7 @@
 	$(function(){
 	  	//申请试用
 	  	$("body").on("click",".test a.submit",function(){
-	  		var isPhone = /^1[34578]\d{9}$/;//手机号码
+	  		var isPhone = /^1[3456789]\d{9}$/;//手机号码
 	  		if(!isPhone.test($(".test .phone").val())){
 	  			alert("请输入正确的手机号码");
 		        return false;
