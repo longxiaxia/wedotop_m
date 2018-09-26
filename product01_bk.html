@@ -12,6 +12,8 @@
 <!--忽略Android平台中对邮箱地址的识别-->
 <meta name="format-detection" content="email=no" />
 <link href="static/css/common.css" type="text/css" rel="stylesheet" />
+<link href="static/css/header.css" type="text/css" rel="stylesheet" />
+<link href="static/css/footer.css" type="text/css" rel="stylesheet" />
 <link href="static/css/wedotop_m.css" type="text/css" rel="stylesheet" />
 <link href="static/css/swiper.min.css" type="text/css" rel="stylesheet">
 <script type="text/javascript" src="static/js/rem.js"></script>
@@ -34,9 +36,12 @@
 				<li class="fl">
 					<a href="javascript:;" class="fLevel active">产品中心</a>
 					<div class="submenu clearfix">
-						<a href="./product01.html" class="sLevel fl">微官网</a>
+						<a href="./product01.html" class="sLevel fl active">微官网</a>
 						<a href="./product02.html" class="sLevel fl">微商城</a>
 						<a href="./product03.html" class="sLevel fl">微直播</a>
+						<a href="./product04.html" class="sLevel fl">微分销</a>
+						<a href="./product05.html" class="sLevel fl">新零售</a>
+						<a href="./product06.html" class="sLevel fl">企业区块链</a>
 						<a href="http://xcx.hdit.com.cn/phone/" class="sLevel fl" target="_blank">小程序</a>
 					</div>
 				</li>
@@ -71,51 +76,29 @@
 		</section>
 		
 		<!--微官网-->
-		<section class="web content">
+		<section class="retail content">
 			<div class="whiteBg">
-				<div class="title" style="padding-top:0.4rem;">微官网</div>
-				<div class="subTitle small">手机端上就能搭建的官网，流量更高，成本更低。<br/>多样化的模板和组件库，只为满足您的个性化需求。</div>
-			
-				<img src="static/images/web09.png" />
-			</div>
-			
-			<div class="grayBg">
-				<div class="title">微冠成微官网优势</div>
-				<div class="subTitle">相比PC端官网，微官网搭建成本远低于PC端官网，<br/>依托于移动端，容易获得更多流量。模板多样，可以自主搭建。</div>
-				
-				<ul class="clearfix">
-					<li class="fl">
-						<img src="static/images/web01.png" />
-					</li>
-					<li class="fl">
-						<img src="static/images/web02.png" />
-					</li>
-					<li class="fl">
-						<img src="static/images/web03.png" />
-					</li>
-					<li class="fl">
-						<img src="static/images/web04.png" />
+				<div class="title">应用价值</div>
+				<ul class="value">
+					<li class="clearfix">
+						<div class="fl">
+							<img src="static/images/retail14.png" />
+						</div>
+						<div class="fr">
+							<p>可全面覆盖一线～四线城市</p>
+							<p>用线上全网营销覆盖移动普及率较高的一二线城市，再用社区零售完成渠道下沉，覆盖三四线城市，两者相辅相成，迈向真正的“全渠道平台”阶段。</p>
+						</div>
 					</li>
 				</ul>
 			</div>
 			
-			<div class="whiteBg">
-				<div class="title">为什么要搭建微冠成微官网</div>
-				<ul class="clearfix">
-					<li class="fl">
-						<img src="static/images/web05.png" />
-					</li>
-					<li class="fl">
-						<img src="static/images/web06.png" />
-					</li>
-					<li class="fl">
-						<img src="static/images/web07.png" />
-					</li>
-					<li class="fl">
-						<img src="static/images/web08.png" />
-					</li>
-				</ul>
-			</div>
+			<!--申请试用-->
+	        <div class="test">
+	        	<input type="text" placeholder="请输入您的姓名" />
+	        	<input type="text" placeholder="请输入您的联系电话" class="phone" />
+	        	<a href="javascript:;" class="submit">申请试用</a>
+	        </div>
+        
 		</section>
 		
 		<!--底部-->
@@ -128,6 +111,21 @@
 	
 <script src="static/js/swiper.min.js"></script>
 <script src="static/js/wedotop_m.js"></script>	
+<script type="text/javascript">
+	$(function(){
+	  	//申请试用
+	  	$("body").on("click",".test a.submit",function(){
+	  		var isPhone = /^1[34578]\d{9}$/;//手机号码
+	  		if(!isPhone.test($(".test .phone").val())){
+	  			alert("请输入正确的手机号码");
+		        return false;
+		   	}
+	  		
+	  		alert("提交成功");
+
+		});	
+	})
+</script> 
 </body>
 
 </html>
