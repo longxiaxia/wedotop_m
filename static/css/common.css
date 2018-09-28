@@ -43,7 +43,7 @@ em{display:inline-block;}
 
 /*右边浮动菜单*/
 #float_nav{
-	width:0.9rem;
+	width:1.8rem;
     height: 182px;
     position:fixed;
     top:100px;
@@ -52,10 +52,10 @@ em{display:inline-block;}
 }
 #float_nav a{
 	display:block;
-    width:0.9rem;
-    height:0.9rem;
-    padding:0.09rem 0;
-    margin-bottom:7px;
+    width:1.8rem;
+    height:1.8rem;
+    padding:0.2rem 0;
+    margin-bottom:0.2rem;
     background:#f90;
     color:#fff;
     position:relative;
@@ -63,25 +63,21 @@ em{display:inline-block;}
 #float_nav a:nth-child(4){
 	background:#66c753;
 }
-/*#float_nav a:hover i{
-	display:none;
-}*/
 #float_nav a p{
-	font-size:0.28rem;
-	line-height:0.38rem;
-	/*padding:10px 11px;
-	font-size:16px;
-    line-height:24px;*/
+	font-size:0.34rem;
+	line-height:0.4rem;
 }
-/*#float_nav a i{
+#float_nav a i{
 	display:inline-block;
-    width:26px;
-    height:26px;
+    width:0.9rem;
+    height:0.9rem;
     background:url(../images/icon_nav01.png) no-repeat;
     background-size:100% 100%;
-    margin-top:13px;
+    -webkit-background-size:100% 100%;
+    /*margin-top:13px;*/
 }
-#float_nav a:nth-child(2) i{
+
+/*#float_nav a:nth-child(2) i{
     background-image:url(../images/icon_nav02.png);
 }
 #float_nav a:nth-child(3) i{
@@ -90,6 +86,27 @@ em{display:inline-block;}
 #float_nav a:nth-child(4) i{
     background-image:url(../images/icon_nav04.png);
 }*/
+@keyframes scaleDraw {  
+    0%{
+        transform: scale(0.8);  
+    }
+    25%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.8);
+    }
+    75%{
+        transform: scale(1);
+    }
+}
+.ballon{
+    -webkit-animation-name: scaleDraw; /*关键帧名称*/
+    -webkit-animation-timing-function: ease; /*动画的速度曲线*/
+    -webkit-animation-iteration-count: infinite;  /*动画播放的次数*/
+    -webkit-animation-duration:1s; /*动画所花费的时间*/
+   -webkit-animation-direction:alternate;
+}
 
 #float_nav a .meau{
 	display:none;
@@ -102,7 +119,7 @@ em{display:inline-block;}
 	transform:translateY(-50%);
 	-webkit-transform:translateY(-50%);
 }
-#float_nav a:hover .meau{
+/*#float_nav a:hover .meau{
 	display:block;
 }
 #float_nav a .meau:before{
@@ -148,4 +165,4 @@ em{display:inline-block;}
 	line-height:34px;
 	border-bottom:1px solid #ffae34;
     padding-bottom:12px;
-}
+}*/

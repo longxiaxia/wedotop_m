@@ -1,4 +1,4 @@
-/*首页*/
+/***首页***/
 #index{
 	text-align:center;
 }
@@ -235,7 +235,7 @@
 }
 
 
-/*产品中心*/
+/***产品中心***/
 #product{
 	
 }
@@ -439,23 +439,98 @@
 	width: 1.2rem;
 	margin: 0 auto;
 }
-/*新闻详情*/
+
+
+/***新闻详情***/
 #detail{
 	
 }
 #detail .main{
-	padding:0 0.5rem;
+	padding:0.5rem;
 }
 #detail .main .title{
 	font-weight:bold;
 	text-align:center;
 	font-size:0.4rem;
 	line-height:0.6rem;
-	padding-top:0.5rem;
 }
 #detail .main p{
 	color:#707070;
 	font-size:0.34rem;
 	line-height:0.54rem;
 	margin:0.2rem 0;
+}
+
+/***帮助中心***/
+#help .help{
+	border-top:1px solid #ececec;
+}
+#help .list{
+	line-height:1.2rem;
+}
+#help .list .title{
+	cursor:pointer;
+	font-size:0.48rem;
+	font-weight:bold;
+	color:#000;
+	background:#f4f4f4;
+	border-bottom:1px solid #ececec;
+	padding:0 0.4rem;
+	position:relative;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+#help .list .title:after{
+	display:block;
+	content:"";
+	width:1rem;
+	height:1rem;
+	background:url(../images/wedotop_m.png) left 0 top -2rem no-repeat;
+	background-size:10.8rem auto;
+	-webkit-background-size:10.8rem auto;
+	position:absolute;
+	right:0.1rem;
+	top:0.1rem;
+}
+#help .list.active .title:after{
+	background:url(../images/wedotop_m.png) left -1rem top -2rem no-repeat;
+	background-size:10.8rem auto;
+	-webkit-background-size:10.8rem auto;
+}
+#help .list ul{
+	display:none;
+	padding-left:0.4rem;
+}
+/*#help .list.active ul{
+	display:block;
+}*/
+#help .list li{
+	border-bottom:1px solid #d3d3d3;
+	padding-right:0.4rem;
+	position:relative;
+}
+#help .list li:after{
+	display:block;
+	content:"";
+	width:1rem;
+	height:1rem;
+	background:url(../images/wedotop_m.png) left -2rem top -2rem no-repeat;
+	background-size:10.8rem auto;
+	-webkit-background-size:10.8rem auto;
+	position:absolute;
+	right:0.1rem;
+	top:0.1rem;
+}
+#help .list li:last-child{
+	border-bottom:0;
+}
+#help .list li a{
+	display:block;
+	text-align:left;
+	font-size:0.36rem;
+	color:#333;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
 }

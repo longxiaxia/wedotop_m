@@ -11,10 +11,10 @@
 <meta name="format-detection" content="telephone=no" />
 <!--忽略Android平台中对邮箱地址的识别-->
 <meta name="format-detection" content="email=no" />
-<link href="static/css/common.css" type="text/css" rel="stylesheet" />
+<link href="static/css/common.css?v=20180928" type="text/css" rel="stylesheet" />
 <link href="static/css/header.css" type="text/css" rel="stylesheet" />
 <link href="static/css/footer.css" type="text/css" rel="stylesheet" />
-<link href="static/css/wedotop_m.css?v=20180918" type="text/css" rel="stylesheet" />
+<link href="static/css/wedotop_m.css?v=20180928" type="text/css" rel="stylesheet" />
 <link href="static/css/swiper.min.css" type="text/css" rel="stylesheet">
 <script type="text/javascript" src="static/js/rem.js"></script>
 <script type="text/javascript" src="static/js/jquery.2.1.4.min.js"></script>
@@ -22,10 +22,12 @@
 <body>
 	<div id="float_nav">
 		<a href="javascript:;">
-			<p>在线<br/>咨询</p>
+			<i class="ballon"></i>
+			<p>在线咨询</p>
 		</a>
 		<a href="javascript:;">
-			<p>热线<br/>电话</p>
+			<i></i>
+			<p>热线电话</p>
 			<ul class="meau">
 				<li>
 					<p>产品咨询</p>
@@ -34,45 +36,18 @@
 			</ul>
 		</a>
 		<a href="javascript:;">
-			<p>在线<br/>注册</p>
+			<i></i>
+			<p>在线注册</p>
 		</a>
 		<a href="javascript:;">
-			<p>代理<br/>合作</p>
+			<i></i>
+			<p>代理合作</p>
 		</a>
 	</div>
 
 	<div id="index">
-		<!--广告-->
-		<section class="ad">
-			<img src="static/images/temp/ad.png" />	
-		</section>
-		
-		<!--导航-->
-		<nav class="clearfix">
-			<ul class="clearfix">
-				<li class="fl">
-					<a href="./index.html" class="fLevel active">首页</a>
-				</li>
-				<li class="fl">
-					<a href="javascript:;" class="fLevel">产品中心</a>
-					<div class="submenu clearfix">
-						<a href="./product01.html" class="sLevel fl">微官网</a>
-						<a href="./product02.html" class="sLevel fl">微商城</a>
-						<a href="./product03.html" class="sLevel fl">微直播</a>
-						<a href="./product04.html" class="sLevel fl">微分销</a>
-						<a href="./product05.html" class="sLevel fl">新零售</a>
-						<a href="./product06.html" class="sLevel fl">企业区块链</a>
-						<a href="http://xcx.hdit.com.cn/phone/" class="sLevel fl" target="_blank">小程序</a>
-					</div>
-				</li>
-				<li class="fl">
-					<a href="./news.html" class="fLevel">新闻动态</a>
-				</li>
-				<li class="fl">
-					<a href="./about.html" class="fLevel">关于我们</a>
-				</li>
-			</ul>
-		</nav>
+		<!--头部-->
+		<div id="header"></div>
 
 		<!--轮播-->
 		<section class="banner">
@@ -206,11 +181,8 @@
 		</section>
 		
 		<!--底部-->
-		<footer>
-			<p>@2016-2018 深圳市微冠成信息技术有限公司<br/>粤ICP备18116704号 & 版权所有</p>
-			<p>地址：广东省深圳市南山区高新南一道8号创维大厦C座9楼</p>
-			<p>技术支持：微冠成</p>
-		</footer>
+		<div id="footer"></div>
+		
 	</div>
 	
 <script src="static/js/swiper.min.js"></script>

@@ -1,7 +1,8 @@
 $(function(){    	
 	//头尾加载
-	//$("#header").load("header.html");
-	//$("#footer").load("footer.html");
+	$("#header").load("header.html");
+	$("#footer").load("footer.html");
+	
 	//轮播
     var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',

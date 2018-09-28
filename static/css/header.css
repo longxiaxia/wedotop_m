@@ -14,7 +14,7 @@ nav a.fLevel{
 	font-size:0.4rem;
 	line-height:0.4rem;
 	padding:0 0.25rem;
-	padding:0 0.35rem;
+	padding:0 0.3rem;
 	border-right:2px solid #C7C5C5;
 }
 nav a.fLevel.active{
