@@ -7,3 +7,9 @@ footer{
 	background:#EFEFEF;
 	padding:0.28rem 0 0.23rem;
 }
+footer.active{
+	width:100%;
+	position:fixed;
+	left:0;
+	bottom:0;
+}

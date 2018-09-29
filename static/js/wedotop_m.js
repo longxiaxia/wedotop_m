@@ -32,6 +32,11 @@ $(function(){
 		}
 	});
 	
-	
+	var bodyH = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight; 
+	//console.log(bodyH);
+	if($("body").height()+2.6*htmlFont<bodyH){
+		$("footer").addClass("active");
+		
+	}
 	
 })	 
