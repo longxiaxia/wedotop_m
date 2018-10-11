@@ -167,3 +167,72 @@ em{display:inline-block;}
 	border-bottom:1px solid #ffae34;
     padding-bottom:12px;
 }*/
+
+
+
+/*底部广告条*/
+#index,#product{
+	padding-bottom:0;
+}
+#index.active,#product.active{
+	padding-bottom:3.16rem;
+}
+#footer_ad{
+	width:100%;
+	background:#008cff;
+	padding:0.32rem 0.5rem 0.22rem 0.5rem;
+	position:fixed;
+	left:0;
+	bottom:0;
+}
+#footer_ad img{
+	width:5.48rem;
+}
+#footer_ad .info{
+	margin:0.2rem 0 0.15rem 0;
+}
+#footer_ad input{
+	width:3.45rem;
+	font-size:0.38rem;
+	line-height:0.48rem;
+	border:1px solid #d2d2d2;
+	padding:0.2rem 0.25rem;
+}
+#footer_ad input.phone{
+	margin-left:0.2rem;
+}
+#footer_ad .info ::-webkit-input-placeholder { /* WebKit browsers */  
+    color:#848282;  
+}  
+#footer_ad .info  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */  
+   color:#848282;  
+}  
+#footer_ad .info  ::-moz-placeholder { /* Mozilla Firefox 19+ */  
+   color:#848282;   
+}  
+#footer_ad .info  :-ms-input-placeholder { /* Internet Explorer 10+ */  
+   color:#848282;  
+} 
+#footer_ad a.submit{
+	width:2.5rem;
+	font-size:0.38rem;
+	line-height:0.9rem;
+	color:#fff;
+	background:#ff6e39;
+}
+#footer_ad p{
+	text-align:left;
+	color:#fff;
+	font-size:0.32rem;
+	line-height:0.42rem;
+}
+#footer_ad a.close{
+	width:0.5rem;
+	height:0.5rem;
+	background:url(../images/ad_close.png) no-repeat;
+	background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	position:absolute;
+	right:0.15rem;
+	top:0.15rem;
+}

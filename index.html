@@ -11,7 +11,7 @@
 <meta name="format-detection" content="telephone=no" />
 <!--忽略Android平台中对邮箱地址的识别-->
 <meta name="format-detection" content="email=no" />
-<link href="static/css/common.css?v=20180928" type="text/css" rel="stylesheet" />
+<link href="static/css/common.css?v=20181011" type="text/css" rel="stylesheet" />
 <link href="static/css/header.css" type="text/css" rel="stylesheet" />
 <link href="static/css/footer.css" type="text/css" rel="stylesheet" />
 <link href="static/css/wedotop_m.css?v=20180928" type="text/css" rel="stylesheet" />
@@ -164,6 +164,48 @@
 		<div id="footer"></div>
 		
 	</div>
+	
+	
+	<!--底部广告条     加在首页 所有产品页-->
+	<div id="footer_ad" class="tac">
+		<img src="static/images/adText.png" />
+		
+		<div class="info clearfix">
+			<input type="text" placeholder="您的姓名" class="fl name" />
+			<input type="text" placeholder="您的手机号码" class="fl phone" />
+			<a href="javascript:;" class="fr  submit">立即抽奖</a>
+		</div>
+		
+		<p class="time">活动时间：2018.10.01—2018.10.15</p>
+		<p class="tip">注册后随即选取50名，送出价值5000元小程序系统</p>
+		
+		<a href="javascript:;" class="close"></a>
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			$("#index,#product").addClass("active");
+		  	//提交底部广告条信息
+		  	$("body").on("click","#footer_ad a.submit",function(){
+		  		
+		  		var isPhone = /^1[34578]\d{9}$/;//手机号码
+		  		if(!$("#footer_ad .name").val()){
+		  			alert("请输入姓名");
+			        return false;
+			    }
+		  		if(!isPhone.test($("#footer_ad .phone").val())){
+		  			alert("请输入正确的手机号码");
+			        return false;
+			    }
+		  		console.log("提交成功");
+			});	
+			
+			//关闭提交底部广告条
+		  	$("body").on("click","#footer_ad a.close",function(){
+		  		$("#footer_ad").hide();
+		  		$("#index,#product").removeClass("active");
+			});	
+		})
+	</script> 
 	
 <script src="static/js/swiper.min.js"></script>
 <script src="static/js/wedotop_m.js"></script>		
